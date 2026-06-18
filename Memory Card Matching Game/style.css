@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background: linear-gradient(
+        185deg,
+        #1c2441,
+        #171537
+    );
+    min-height:100vh;
+    margin:0;
+    color:white;
+}
+
+h1{
+    padding-top:20px;
+}
+
+.info{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.board{
+    width:460px;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns:repeat(4,100px);
+    gap:10px;
+}
+
+.card{
+    height:100px;
+    background:#3498db;
+    color:white;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card.matched{
+    background:#2ecc71;
+}
+
+button{
+    padding:12px 25px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#message{
+    margin-top:20px;
+    font-size:36px;
+}
