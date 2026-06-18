@@ -27,8 +27,6 @@ Memory-Card-Matching-Game/
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
-    └── images/
 ```
 
 ## How to Play
